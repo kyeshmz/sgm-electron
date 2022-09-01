@@ -1,0 +1,15 @@
+{
+	"name": "sgm-electron",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:kyeshmz/sgm-electron.git",
+	"author": "kyeshmz <kyeshimizu@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build:mac": "nativefier -i assets/icon-512x512.icns 'https://sgms.app' -a universal -p osx",
+		"build:win": "nativefier -i assets/favicon.ico 'https://sgms.app' -a x64  -p windows"
+	},
+	"dependencies": {
+		"nativefier": "^49.0.1"
+	}
+}
