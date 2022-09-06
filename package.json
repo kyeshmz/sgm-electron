@@ -6,7 +6,7 @@
 	"author": "kyeshmz <kyeshimizu@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"build:mac": "nativefier -i assets/icon-512x512.icns 'https://sgms.app' -a universal -p osx",
+		"build:mac": "nativefier -i assets/icon-512x512.icns 'https://sgms.app' -p osx",
 		"build:win": "nativefier -i assets/favicon.ico 'https://sgms.app' -a x64  -p windows"
 	},
 	"dependencies": {

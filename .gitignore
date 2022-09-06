@@ -1,3 +1,5 @@
 node_modules/
 SuperGoodMeetings-darwin-universal/
 SuperGoodMeetings-win32-x64/
+SuperGoodMeetings-darwin-arm64/
+.DS_Store
