@@ -1,7 +1,7 @@
 {
 	"extends": ["config:base"],
 	"timezone": "Asia/Tokyo",
-	"enabledManagers": ["npm", "pub", "asdf", "pnpm"],
+	"enabledManagers": ["npm", "pub", "asdf"],
 	"lockFileMaintenance": {
 		"enabled": true
 	},
