@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  nativefier: 50.0.1
+  nativefier: 50.1.1
 
 dependencies:
-  nativefier: 50.0.1
+  nativefier: 50.1.1
 
 packages:
 
@@ -1074,8 +1074,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
 
-  /nativefier/50.0.1:
-    resolution: {integrity: sha512-gj1/A+s2FKhtY3vB73E4xiHHbNUX1py5/ZnJ58INE+5ktPLjtW3he8ULcftheCtX73TBphSnt2zLT+c9U2zwKA==}
+  /nativefier/50.1.1:
+    resolution: {integrity: sha512-dKKmo4qMryM38gcn9rNrL0A/r8Yj3EPNqSV3YTuGFAeThQ6peIw8rsviyOo9YcdNa36waYHLXLrJosEs6UM+Cg==}
     engines: {node: '>= 12.9.0', npm: '>= 6.9.0'}
     hasBin: true
     dependencies:
