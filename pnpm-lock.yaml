@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  nativefier: 51.0.0
+  nativefier: 51.0.1
 
 dependencies:
-  nativefier: 51.0.0
+  nativefier: 51.0.1
 
 packages:
 
@@ -204,6 +204,7 @@ packages:
 
   /boolean/3.2.0:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: false
     optional: true
 
@@ -503,6 +504,7 @@ packages:
   /electron-packager/15.5.2:
     resolution: {integrity: sha512-8zUdkSONn0jomu/efqoxApGzgqIb56ooMs671HeB/BXTPnWcWvqpEY08g16PL6ok2ymA5zPj8vmUszLrq99F0Q==}
     engines: {node: '>= 10.12.0'}
+    deprecated: Please use @electron/packager moving forward. There is no API change, just a package name change
     hasBin: true
     dependencies:
       '@electron/get': 1.14.1
@@ -775,6 +777,7 @@ packages:
 
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -891,6 +894,7 @@ packages:
 
   /inflight/1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -998,6 +1002,7 @@ packages:
 
   /lodash.get/4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
     dev: false
 
   /lodash/4.17.21:
@@ -1074,8 +1079,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
 
-  /nativefier/51.0.0:
-    resolution: {integrity: sha512-IjduJvfFov4dhPsom48MpvuDG6hJxgCXnfHZ2xr7LBB4qR/IIYcBi5a+BiKVwts50ixejb0Aqi6cR4oo9SFLeg==}
+  /nativefier/51.0.1:
+    resolution: {integrity: sha512-IhPxEdoOzer2Z1JlsPQ/aCatDoODh7PMvUasIIE9COIwgxqhqAG1DjzheeehoPGAK47fp9UINEZttgRyQo7wdQ==}
     engines: {node: '>= 16.16.0', npm: '>= 8.11.0'}
     hasBin: true
     dependencies:
@@ -1287,6 +1292,7 @@ packages:
   /rcedit/3.0.1:
     resolution: {integrity: sha512-XM0Jv40/y4hVAqj/MO70o/IWs4uOsaSoo2mLyk3klFDW+SStLnCtzuQu+1OBTIMGlM8CvaK9ftlYCp6DJ+cMsw==}
     engines: {node: '>= 10.0.0'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       cross-spawn-windows-exe: 1.2.0
     dev: false
@@ -1346,6 +1352,7 @@ packages:
 
   /rimraf/3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
