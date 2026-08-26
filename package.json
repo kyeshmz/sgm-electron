@@ -10,6 +10,6 @@
 		"build:win": "nativefier -i assets/favicon.ico 'https://sgms.app' -a x64  -p windows"
 	},
 	"dependencies": {
-		"nativefier": "51.0.0"
+		"nativefier": "52.0.0"
 	}
 }
